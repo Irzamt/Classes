@@ -39,19 +39,19 @@
 //     console.log("Num1 is less than num 2");
 // }
 // 
-// var marks = 40;
-// if (marks >= 80) {
+// var marks:number = 40;
+// if(marks >= 80){
 //     console.log("Student grade is A");
 // }
-// else if (marks >= 70) {
+// else if(marks >= 70){
 //     console.log("Student grade is B");
 // }
-// else if (marks >= 60) {
+// else if(marks >= 60){
 //     console.log("Student grade is C");
 // }
-// else if (marks >= 50) {
+// else if(marks >= 50){
 //     console.log("Student grade is D");
 // }
-// else {
+// else{
 //     console.log("Student grade is F");
 // }

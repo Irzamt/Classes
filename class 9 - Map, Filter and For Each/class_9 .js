@@ -1,6 +1,6 @@
 "use strict";
 //MAP => returns new array of same length but the elements could be changed in that new array
-//FOR EACH => returns nothing
+/*************************************************************************************************************************** */
 // let numbers: number[] = [2, 3, 4, 5, 6, 7, 8, 45, 20, 1000, 10000000];
 // let updatedArray = numbers.map((data) => data + 1)
 // console.log(updatedArray);
@@ -20,6 +20,7 @@
 // console.log(updatedArray);
 /*************************************************************************************************************************** */
 //FILTER => returns same length or less
+//FOR EACH => returns nothing
 /*************************************************************************************************************************** */
 let numbers = [2, 3, 4, 5, 6, 7, 8, 45, 20, 1000, 10000000];
 // // let updatedArray = numbers.filter(() => true);
@@ -29,10 +30,10 @@ let numbers = [2, 3, 4, 5, 6, 7, 8, 45, 20, 1000, 10000000];
 //         return true;
 // })
 // console.log(updatedArray);
-/*************************************************************************************************************************** */
 let addnumbers = numbers.filter((item) => {
     if (item % 2 === 0)
         return true;
 });
 console.log(addnumbers);
 console.log("Original Array", numbers);
+/*************************************************************************************************************************** */

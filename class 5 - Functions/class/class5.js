@@ -36,6 +36,6 @@
 //     var result:number = num1 + num2;
 //     return result;
 // }
-var sumArrow = (num1, num2) => num1 + num2;
-var sumResult = sumArrow(6, 3);
-console.log(`Result is: ${sumResult}`);
+// var sumArrow = (num1:number, num2:number):number => num1 + num2
+// var sumResult = sumArrow(6, 3);
+// console.log(`Result is: ${sumResult}`);

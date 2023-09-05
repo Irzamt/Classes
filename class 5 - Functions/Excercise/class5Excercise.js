@@ -13,8 +13,8 @@
 // FToCTemp(0);
 //2. Write program using Functions that calculates the percentage
 //**********************************************************************************************************************/
-function calculatePercentage(obtainedMarks, totalMarks) {
-    var percentage = (obtainedMarks / totalMarks) * 100;
-    console.log(`Percentage: ${percentage}`);
-}
-calculatePercentage(939, 1100);
+// function calculatePercentage(obtainedMarks:number, totalMarks:number){
+//     var percentage = (obtainedMarks/totalMarks) * 100;
+//     console.log(`Percentage: ${percentage}`);
+// }
+// calculatePercentage(939, 1100);
