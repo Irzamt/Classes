@@ -5,7 +5,7 @@
 //     company: "honda",
 //     color: "white",
 //     year: 2023,
-//     isUsed: false,
+//     isUsed: false, 
 //     run: function(){ 
 //         console.log('car is running');
 //     },
@@ -85,25 +85,34 @@
 /*************************************************************************************************************** */
 
 // Write a program that print all the car company and year number from the list, make sure car is an object
+/*************************************************************************************************************** */
 
-type carType = { company: string, color: string, isUsed: boolean, year: number };
+// type carType = { company: string, color: string, isUsed: boolean, year: number };
 
-let cars: carType[] = [
-    {
-        company: 'toyota',
-        color: 'white',
-        isUsed: false,
-        year: 2023
-    },
-    {
-        company: 'honda',
-        color: 'white',
-        isUsed: false,
-        year: 2003
-    }
-];
+// let cars: carType[] = [
+//     {
+//         company: 'toyota',
+//         color: 'white',
+//         isUsed: false,
+//         year: 2023
+//     },
+//     {
+//         company: 'honda',
+//         color: 'white',
+//         isUsed: false,
+//         year: 2003
+//     }
+// ];
 
-for (let i:number = 0; i < cars.length; i++){
-    console.log('years: ' ,cars[i].year);
-    console.log('company: ' ,cars[i].company);
-}
+// for (let i:number = 0; i < cars.length; i++){
+//     console.log('years: ' ,cars[i].year);
+//     console.log('company: ' ,cars[i].company);
+// }
+/*************************************************************************************************************** */
+
+// NPM | TypeScript Imports | Exports
+/*************************************************************************************************************** */
+
+/*
+npm aik aisi repositry (collection) h jis mh dunya k saare open source code prre hain, jis ko hum projects khte hain
+*/

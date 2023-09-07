@@ -19,3 +19,9 @@ for (let i = 0; i < cars.length; i++) {
     console.log('years: ', cars[i].year);
     console.log('company: ', cars[i].company);
 }
+/*************************************************************************************************************** */
+// NPM | TypeScript Imports | Exports
+/*************************************************************************************************************** */
+/*
+npm aik aisi repositry (collection) h jis mh dunya k saare open source code prre hain, jis ko hum projects khte hain
+*/ 
