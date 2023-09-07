@@ -1,10 +1,5 @@
-"use strict";
 //Objects
 /*************************************************************************************************************** */
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
 // let car = {
 //     company: "honda",
 //     color: "white",
@@ -103,5 +98,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /*
 npm aik aisi repositry (collection) h jis mh dunya k saare open source code prre hain, jis ko hum projects khte hain
 */
-const sum_1 = __importDefault(require("./sum"));
-console.log(sum_1.default);
+import c from "./sum.js";
+let d = c + 5;
+console.log(d);

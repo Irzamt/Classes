@@ -117,6 +117,6 @@
 npm aik aisi repositry (collection) h jis mh dunya k saare open source code prre hain, jis ko hum projects khte hain
 */
 
- import c from "./sum";
- console.log(c);
- 
+import c from "./sum.js";
+let d: number = c + 5;
+console.log(d);
