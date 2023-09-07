@@ -98,6 +98,7 @@
 /*
 npm aik aisi repositry (collection) h jis mh dunya k saare open source code prre hain, jis ko hum projects khte hain
 */
-import c from "./sum.js";
+import { c, sumFunc } from "./sum.js";
 let d = c + 5;
 console.log(d);
+console.log(sumFunc(20, 16));
