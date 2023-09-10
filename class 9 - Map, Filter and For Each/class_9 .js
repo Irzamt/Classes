@@ -20,7 +20,6 @@
 // console.log(updatedArray);
 /*************************************************************************************************************************** */
 //FILTER => returns same length or less
-//FOR EACH => returns nothing
 /*************************************************************************************************************************** */
 let numbers = [2, 3, 4, 5, 6, 7, 8, 45, 20, 1000, 10000000];
 // // let updatedArray = numbers.filter(() => true);
@@ -37,3 +36,9 @@ let addnumbers = numbers.filter((item) => {
 console.log(addnumbers);
 console.log("Original Array", numbers);
 /*************************************************************************************************************************** */
+//FOR EACH => returns nothing
+/*************************************************************************************************************************** */
+let names = ["abu hurairah", "naveed", "ali"];
+names.forEach((data) => {
+    console.log(`Your class on sundy will be onTime ${data}`);
+});
