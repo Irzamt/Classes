@@ -2,21 +2,32 @@
 Asyncronous Code | Set Timeout Method | Set Interval Method
 *********************************************************************************************************/
 
-console.log("before async code");
+// console.log("before async code");
 
-// function doSomething (){
+// // function doSomething (){
+// //     console.log('print something');
+// // }
+
+// // setTimeout(doSomething, 5000) //The function doSomething() will wait 5s
+
+// // short way to write the above code
+// // setTimeout (() => {
+// //     console.log('print do something');
+// // }, 10000)
+
+// setInterval(() => {
 //     console.log('print something');
-// }
+// }, 1000) //The function will be executed indefinetly after 1s time interval
 
-// setTimeout(doSomething, 5000) //The function doSomething() will wait 5s
+// console.log('after async code');
 
-// short way to write the above code
-// setTimeout (() => {
-//     console.log('print do something');
-// }, 10000)
+/**************************************************************************************************
 
-setInterval(() => {
-    console.log('print something');
-}, 1000) //The function will be executed indefinetly after 1s time interval
+Promise Handling | Obect Oriented Class Concept
+***************************************************************************************************/
+type objType = {price: number, color: string};
 
-console.log('after async code');
+let obj: objType = {
+    price: 234,
+    color: 'red'
+};
