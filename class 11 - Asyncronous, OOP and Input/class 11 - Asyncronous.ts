@@ -29,16 +29,29 @@ Promise Handling | Obect Oriented Class Concept
 Class is an entity which represents some Properties and Methods
 */
 
-type CarType = {price: number, color: string};
+type CarType = {price: number, color: string, startCar: () => number};
 class Car { 
     price: number = 0;
     color: string = 'not defined'
+    constructor (color: string, price: number){ //constrcutor method will automatically be called
+        this.price = price;
+        this.color = color;
+        console.log('constructor'); 
+    }
+    startCar = () => { //This method will not be called automatically
+        console.log('startCar'); 
+        return 0;
+    }
 }
 
-let carA: CarType = new Car();
-let carB: CarType = new Car();
+let carA: CarType = new Car('red', 234)
+carA.startCar()
 
-console.log(carA);
+let carB: CarType = new Car('blue', 378)
+
+console.log('carA', carA);
+console.log('carB', carB);
+
 
 
 
