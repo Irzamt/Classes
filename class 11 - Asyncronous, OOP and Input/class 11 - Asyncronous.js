@@ -2,16 +2,17 @@
 /*
 Asyncronous Code | Set Timeout Method | Set Interval Method
 *********************************************************************************************************/
-console.log("before async code");
-// function doSomething (){
-//     console.log('print something');
-// }
-// setTimeout(doSomething, 5000) //The function doSomething() will wait 5s
-// short way to write the above code
-// setTimeout (() => {
-//     console.log('print do something');
-// }, 10000)
-setInterval(() => {
-    console.log('print something');
-}, 1000);
-console.log('after async code');
+class Car {
+    constructor() {
+        this.price = 0;
+        this.color = 'not defined';
+    }
+}
+let carA = new Car();
+let carB = new Car();
+console.log(carA);
+// type objType = {price: number, color: string};
+// let obj: objType = {
+//     price: 234,
+//     color: 'red'
+// }; 

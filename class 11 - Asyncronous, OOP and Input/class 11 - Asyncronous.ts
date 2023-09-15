@@ -25,9 +25,27 @@ Asyncronous Code | Set Timeout Method | Set Interval Method
 
 Promise Handling | Obect Oriented Class Concept
 ***************************************************************************************************/
-type objType = {price: number, color: string};
+/*
+Class is an entity which represents some Properties and Methods
+*/
 
-let obj: objType = {
-    price: 234,
-    color: 'red'
-};
+type CarType = {price: number, color: string};
+class Car { 
+    price: number = 0;
+    color: string = 'not defined'
+}
+
+let carA: CarType = new Car();
+let carB: CarType = new Car();
+
+console.log(carA);
+
+
+
+
+// type objType = {price: number, color: string};
+
+// let obj: objType = {
+//     price: 234,
+//     color: 'red'
+// }; 
