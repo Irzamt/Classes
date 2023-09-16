@@ -1,8 +1,6 @@
-"use strict";
 /*
 Asyncronous Code | Set Timeout Method | Set Interval Method
 *********************************************************************************************************/
-Object.defineProperty(exports, "__esModule", { value: true });
 // console.log("before async code");
 // // function doSomething (){
 // //     console.log('print something');
@@ -72,3 +70,4 @@ result
     .then(sucess => console.log('success', sucess))
     .catch(error => console.log('error', error));
 console.log('after async code');
+export {};
