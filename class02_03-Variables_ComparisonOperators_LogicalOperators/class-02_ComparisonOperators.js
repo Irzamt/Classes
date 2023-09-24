@@ -1,19 +1,19 @@
 "use strict";
-var num1 = 10;
-var num2 = 20;
+var num3 = 10;
+var num4 = 20;
 // Comparison operator returns BOOLEAN type value.
 // less than operator
-var result = num2 < num1;
+var result = num4 < num3;
 // greater than operator
-var result2 = num1 > num2;
+var result2 = num3 > num4;
 // equal to operator 
 //only value check.
-var result3 = num1 == num2;
+var result3 = num3 == num4;
 // value check and datatype check.
-var result4 = num1 === num2;
+var result4 = num3 === num4;
 //not equal to operator
-var result6 = num1 != num2;
+var result6 = num3 != num4;
 //Greater than and equal to operator
-var result5 = num1 >= num2;
+var result5 = num3 >= num4;
 //Less than and equal to operator
-var result5 = num1 <= num2;
+var result5 = num3 <= num4;

@@ -44,7 +44,7 @@
 //     console.log("Num1 is less than num 2");
 // }
 
-// 
+
 // var marks:number = 40;
 // if(marks >= 80){
 //     console.log("Student grade is A");
