@@ -1,4 +1,0 @@
-"use strict";
-console.log("Hello");
-let a = 5;
-console.log(a);
